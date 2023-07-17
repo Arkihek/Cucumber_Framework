@@ -36,7 +36,7 @@ public class AutomationStepdefinitions {
         Faker faker = new Faker();
         Actions actions = new Actions(Driver.getDriver());
         actions.click(automationPage.titleBox).sendKeys(Keys.TAB).sendKeys(Keys.TAB)
-                .sendKeys(faker.internet().password()).sendKeys(Keys.TAB).
+                .sendKeys(faker.internet().password()).sendKeys(Keys.TAB);
 
 
     }
@@ -51,5 +51,4 @@ public class AutomationStepdefinitions {
 
     }
 
-    }
 }
