@@ -15,6 +15,7 @@ import org.junit.runner.RunWith;
         glue = "stepdefinitions", // Steplerin oldugu klasor adi
         tags = "@wip", // Tagla hangi testleri calistirigimiz
 
+
         dryRun = false
 )
 
