@@ -1,6 +1,6 @@
 Feature: US1009 kullanici olmayan bir webelementi test eder
 
-  @wip
+
   Scenario: TC15 olmayan butonu test edebilmeli
 
     Given kullanici "heroqaUrl" anasayfaya gider

@@ -13,10 +13,10 @@ import org.junit.runner.RunWith;
         }, // Jason rapor icin bu kodu giriyoruz. API ile ilgili buz raporunu makinaya gondermemiz gerekirse kullaniriz
         features = "C:\\Users\\ihsan\\IdeaProjects\\team116_Cucumber\\src\\test\\resources", // Hangi klasordeki testleri yapacak onun yolu
         glue = "stepdefinitions", // Steplerin oldugu klasor adi
-        tags = "@wip", // Tagla hangi testleri calistirigimiz
+        tags = "@smoke", // Tagla hangi testleri calistirigimiz
 
 
-        dryRun = false
+        dryRun = true
 )
 
 public class Runner {
