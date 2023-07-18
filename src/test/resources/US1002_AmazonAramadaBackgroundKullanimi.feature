@@ -17,6 +17,7 @@ Feature: US1002 Kullanici Background kullanarak amazonda istedigi aramalari yapa
     And arama sonuclarinin Samsung icerdigini test eder
     Then sayfayi kapatir
 
+  @regression
   Scenario: TC06 Kullanici amazonda Java arayabilmeli
     Then arama kutusuna Java yazip, ENTER tusuna basar
     And arama sonuclarinin Java icerdigini test eder

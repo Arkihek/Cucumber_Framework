@@ -1,6 +1,6 @@
 Feature: US1004 Amazonda listeden ilk urununu dogru oldugunu test eder
 
-
+  @regression
   Scenario: TC08 ilk urun ismi arttirdigimiz kelimeyi icermeli
 
     Given kullanici "amazonUrl" anasayfaya gider
